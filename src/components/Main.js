@@ -1,20 +1,28 @@
 import React from 'react';
 import nba from 'nba';
-import { Profile } from './Profile'
-import { ShotChart } from './ShotChart'
-
-window.nba = nba;
+import { Profile } from './Profile';
+import { ShotChart } from './ShotChart';
 
 export class Main extends React.Component {
+    state = {
+        playerId: nba.findPlayer("Brandon Ingram").playerId,
+        playerInfo: {},
+    }
     componentDidMount() {
-        console.log(nba.findPlayer("Brandon Ingram"));
+        nba.stats.playerInfo({ PlayerID: this.state.playerId }).then((info) => {
+            const playerInfo = Object.assign(info.commonPlayerInfo[0], info.playerHeadlineStats[0]);
+            console.log(playerInfo);
+            this.setState({
+                playerInfo: playerInfo,
+            });
+        });
     }
 
     render() {
         return(
             <div className='main'>
                 <Profile/>
-                <ShotChart playerId={1627742}/>
+                <ShotChart playerId={this.state.playerId}/>
             </div>
         )
     }
