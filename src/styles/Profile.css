@@ -8,12 +8,10 @@
 .profile div {
     box-sizing: border-box;
 }
-
 .profile-entry {
     display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 10px 10px 10px;
+    font-size: 0.8em;
+    padding: 10px 0;
 }
 
 .profile-entry-left {
