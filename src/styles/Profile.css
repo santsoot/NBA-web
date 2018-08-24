@@ -15,11 +15,13 @@
 }
 
 .profile-entry-left {
+    font-size: 1.2em;
     text-align: left;
     font-weight: bold;
 }
 
 .profile-entry-right {
+    font-size: 1.2em;
     text-align: right;
     flex: 1;
 }

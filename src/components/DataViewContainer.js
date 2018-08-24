@@ -50,7 +50,18 @@ export class DataViewContainer extends React.Component {
                     displayToolTips={displayToolTips}
                     chartType={chartType}
                 />
-                <CountSlider onChange={_.debounce(this.onCountSliderChange, 500)}/>
+
+                {
+                    (
+                        chartType === "hexbin" ?
+                            <CountSlider
+                                onChange={_.debounce(this.onCountSliderChange, 500)}
+                                defaultValue = {minCount}
+                            />
+                            : null
+                    )
+                }
+
 
                 <RadioGroup onChange={this.onChartTypeChange} value={chartType}>
                     <Radio value="hexbin">Hexbin</Radio>
