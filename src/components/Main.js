@@ -3,7 +3,7 @@ import nba from 'nba';
 import { Profile } from "./Profile";
 import { DataViewContainer } from './DataViewContainer';
 import { SearchBar } from './SearchBar';
-import { DEFAULT_PLAYER_INFO } from './constants'
+import { DEFAULT_PLAYER_INFO } from '../constants'
 
 window.nba = nba;
 
