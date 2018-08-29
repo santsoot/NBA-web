@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c43bb63-b1b2-438e-b31d-4de41215d78a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Search-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Search-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DataViewContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DataViewContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/DataViewContainer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/DataViewContainer.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +14,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataViewContainer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataViewContainer.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SearchBar.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SearchBar.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -27,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Search-bar.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Search-bar.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/styles/Search-bar.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="112">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -61,10 +93,8 @@
         <option value="$PROJECT_DIR$/src/components/constant.js" />
         <option value="$PROJECT_DIR$/src/components/Profile.js" />
         <option value="$PROJECT_DIR$/src/styles/ShotChart.css" />
-        <option value="$PROJECT_DIR$/src/styles/DataViewContainer.css" />
         <option value="$PROJECT_DIR$/src/components/ShotChart.js" />
         <option value="$PROJECT_DIR$/src/styles/Profile.css" />
-        <option value="$PROJECT_DIR$/src/components/DataViewContainer.js" />
         <option value="$PROJECT_DIR$/src/components/CountSlider.js" />
         <option value="$PROJECT_DIR$/src/styles/Main.css" />
         <option value="$PROJECT_DIR$/src/styles/search-bar.css" />
@@ -73,6 +103,8 @@
         <option value="$PROJECT_DIR$/src/components/Main.js" />
         <option value="$PROJECT_DIR$/src/components/SearchBar.js" />
         <option value="$PROJECT_DIR$/src/styles/Search-bar.css" />
+        <option value="$PROJECT_DIR$/src/components/DataViewContainer.js" />
+        <option value="$PROJECT_DIR$/src/styles/DataViewContainer.css" />
       </list>
     </option>
   </component>
@@ -97,10 +129,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="644" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="727" />
+    <option name="width" value="1924" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +153,12 @@
               <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="nba-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nba-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nba-web" type="b2602c69:ProjectViewProjectNode" />
@@ -241,15 +278,15 @@
       <workItem from="1535102511684" duration="3313000" />
       <workItem from="1535136792066" duration="2120000" />
       <workItem from="1535571998185" duration="3059000" />
-      <workItem from="1535575425549" duration="2713000" />
+      <workItem from="1535575425549" duration="3539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26047000" />
+    <option name="totallyTimeSpent" value="26873000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="387" width="1280" height="727" extended-state="0" />
+    <frame x="0" y="23" width="1924" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -262,10 +299,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4015873" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40222576" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20113085" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13230605" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -585,13 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/ShotChart.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -629,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CountSlider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -670,16 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
@@ -699,8 +709,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/Search-bar.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="112">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DataViewContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="72" column="18" lean-forward="true" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/DataViewContainer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>

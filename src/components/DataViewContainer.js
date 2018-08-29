@@ -62,13 +62,14 @@ export class DataViewContainer extends React.Component {
                     )
                 }
 
-
-                <RadioGroup onChange={this.onChartTypeChange} value={chartType}>
-                    <Radio value="hexbin">Hexbin</Radio>
-                    <Radio value="scatter">Scatter</Radio>
-                </RadioGroup>
-                <Switch checkedChildren="On" unCheckedChildren="Off" defaultChecked onChange={this.onTooltipChange}/>
-
+                <div className="controller">
+                    <RadioGroup onChange={this.onChartTypeChange} value={chartType}>
+                        <Radio value="hexbin">Hexbin</Radio>
+                        <Radio value="scatter">Scatter</Radio>
+                    </RadioGroup>
+                    <Switch checkedChildren="On" unCheckedChildren="Off" defaultChecked
+                            onChange={this.onTooltipChange}/>
+                </div>
             </div>
         )
     }
