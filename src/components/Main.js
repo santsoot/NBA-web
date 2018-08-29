@@ -5,8 +5,6 @@ import { DataViewContainer } from './DataViewContainer';
 import { SearchBar } from './SearchBar';
 import { DEFAULT_PLAYER_INFO } from '../constants'
 
-window.nba = nba;
-
 export class Main extends React.Component {
     state = {
         playerInfo: DEFAULT_PLAYER_INFO
