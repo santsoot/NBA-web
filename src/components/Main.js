@@ -6,16 +6,23 @@ import { SearchBar } from './SearchBar'
 
 export class Main extends React.Component {
     state = {
-        playerId: nba.findPlayer('Brandon Ingram').playerId,
-        playerInfo: {},
+        playerInfo: {
+            playerId: nba.findPlayer("Brandon Ingram").playerId,
+        },
     }
 
     componentDidMount() {
-        nba.stats.playerInfo({ PlayerID: this.state.playerId }).then((info) => {
-            const playerInfo = Object.assign({}, info.commonPlayerInfo[0], info.playerHeadlineStats[0]);
-            console.log(playerInfo);
+        this.loadPlayerInfo("Brandon Ingram");
+    }
+
+    loadPlayerInfo = (playerName) => {
+        const playerId = nba.findPlayer(playerName).playerId;
+        nba.stats.playerInfo({ PlayerID: playerId }).then((response) => {
+            const playerInfo = Object.assign(
+                {}, response.commonPlayerInfo[0], response.playerHeadlineStats[0]
+            );
             this.setState({
-                playerInfo: playerInfo,
+                playerInfo
             });
         });
     }
@@ -23,10 +30,10 @@ export class Main extends React.Component {
     render() {
         return (
             <div className="main">
-                <SearchBar/>
+                <SearchBar loadPlayerInfo={this.loadPlayerInfo}/>
                 <div className="player">
                     <Profile playerInfo={this.state.playerInfo}/>
-                    <DataViewContainer playerId={this.state.playerId}/>
+                    <DataViewContainer playerId={this.state.playerInfo.playerId}/>
                 </div>
 
             </div>
